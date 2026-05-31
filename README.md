@@ -1,5 +1,10 @@
 # CSS Code (Quantum_Hamming Code) under random Pauli error
-Quantum error correction of random Pauli error using  [[15,7,3]] quantum Hamming code
+
+**Please use the nbviewer to view the file:**
+https://nbviewer.jupyter.org/github/talalahmed101/CSS_Code_-Quantum_Hamming_Code-_under_random_Pauli_error/blob/main/QEC_Quantum_Hamming_code_random_Pauli_error_with_syndrome_CSS_2.ipynb
+
+
+**Quantum error correction of random Pauli error using  [[15,7,3]] quantum Hamming code**
 
 In this repository, we study the quantum error correction of random Pauli error using the quantum Hamming code $[[2^{r}-1, 2^{r}-2r-1,3]]$ which is capable of correcting a single-qubit error. We particularly study the $r= 4 case, in other words $[[15,7, 3]]$ quantum Hamming code. This family of quantum error correcting code is a prime example of CSS code [1,2]. Here we prepare the logical zero state $|0\rangle_{L}$ of [[15,7,3]] code, apply the error channel of random Pauli error occuring with error probability $p$, carry out the syndrome measurement, and based on the syndrome outcome, we correct the error using the recovery operation. To varify the logical zero state preparation, syndrome measurement and recovery operation, we measure the data qubits and expect to find it in $|0\rangle^{\otimes 15}$ state when reverting the logical zero state preparation before making the final measurements on the data qubits.
 
